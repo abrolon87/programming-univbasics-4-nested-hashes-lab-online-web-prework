@@ -130,6 +130,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-   programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+   programmer_hash[:dennis_ritchie][:languages] << "Assembly" #[:languages][1] = "Assembly"   also works but, it's not recommended
    programmer_hash
 end
